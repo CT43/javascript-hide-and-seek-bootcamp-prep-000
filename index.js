@@ -12,7 +12,7 @@ function increaseByRank(n) {
    let specificValues = rankedListValues[i].children 
   }
    for (let j = 0; j < specificValues.length; J++) {
-     specificValues[i]
+     specificValues[i].innerHTML = 
    }
   
 }
