@@ -21,8 +21,8 @@ function deepestChild () {
   let childSearch = document.getElementById('grand-node').children[0];
   
   while (childSearch === true) {
-    childSearch
-    
+    childSearch = childSearch.children[0]
   }
+  return childSearch
     
 }
