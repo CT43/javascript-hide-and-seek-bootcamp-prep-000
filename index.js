@@ -8,6 +8,8 @@ function nestedTarget() {
 
 function increaseByRank(n) {
   var rankedListValues = document.querySelectorAll('.ranked-list');
-  for (let i = 0; i < ranked)
+  for (let i = 0; i < rankedListValues.length; i++) {
+    
+  }
   
 }
