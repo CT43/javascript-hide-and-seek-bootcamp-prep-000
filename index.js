@@ -17,12 +17,14 @@ function increaseRankBy(n) {
   }
 }
 
-function deepestChild () {
-  let childSearch = document.getElementById('grand-node').children[0];
-  
-  while (childSearch === true) {
-    childSearch = childSearch.children[0]
+function deepestChild() {
+  let child = document.getElementById('grand-node')
+  let childSearch = child.children[0]
+
+  while (childSearch) {
+    child = childSearch
+    childSearch = child.children[0]
   }
-  return childSearch
-    
+
+  return child
 }
